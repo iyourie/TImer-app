@@ -1,0 +1,19 @@
+body{
+    font-family: rockwell;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+p{
+    border: solid 2px black;
+    padding: 15px;
+    color: rgb(238, 58, 38);
+    margin-left: 5px;
+    font-size: 25px;
+}
+p:hover{
+    border-color: rgb(255, 25, 0);
+    cursor: pointer;
+}
