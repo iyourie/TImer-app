@@ -5,7 +5,7 @@ let four = document.querySelectorAll('p')[3]
 
 let counter = setInterval(() => {
 
-    let goal = new Date('May 30, 2022 23:59:59').getTime()
+    let goal = new Date('Jan 01, 2027 23:59:59').getTime()
 
     let now = new Date().getTime()
 
